@@ -1,0 +1,16 @@
+#appletv{
+    height: 50vh;
+    display: flex;
+    overflow-x: auto;
+    width: 100vw;
+    gap: 10px;
+     scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none;
+}
+.appletv-card{
+    min-width: 55vw;
+    height: 100%;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+}
