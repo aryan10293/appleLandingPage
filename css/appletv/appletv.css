@@ -4,8 +4,10 @@
     overflow-x: auto;
     width: 100vw;
     gap: 10px;
-     scrollbar-width: none; /* Hide scrollbar in Firefox */
-  -ms-overflow-style: none;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+    transition: transform 0.5s ease;
 }
 .appletv-card{
     min-width: 55vw;
@@ -13,4 +15,28 @@
     background-color: lightblue;
     text-align: center;
     line-height: 100px;
+}
+.container{
+    position: relative;
+}
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    /* Center button vertically */
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.left {
+    left: 0;
+    /* Left button */
+}
+
+.right {
+    right: 0;
+    /* Right button */
 }

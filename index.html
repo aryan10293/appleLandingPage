@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/nav/nav.css">
     <link rel="stylesheet" href="./css/divs/divs.css">
     <link rel="stylesheet" href="./css/appletv/appletv.css">
+    <script src="./js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/ffae4ec281.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -130,16 +131,20 @@
         </section>
     </div>
 
-    <section id="appletv">
-        <div id="gallery-1" class="appletv-card" style="background-color:green;"></div>
-        <div id="gallery-2" class="appletv-card" style="background-color:blue;"></div>
-        <div id="gallery-3" class="appletv-card" style="background-color:green;"></div>
-        <div id="gallery-4" class="appletv-card" style="background-color:blue;"></div>
-        <div id="gallery-5" class="appletv-card" style="background-color:green;"></div>
-        <div id="gallery-6" class="appletv-card" style="background-color:blue;"></div>
-        <div id="gallery-7" class="appletv-card" style="background-color:green;"></div>
-        <div id="gallery-8" class="appletv-card" style="background-color:blue;"></div>
-        <div id="gallery-9" class="appletv-card" style="background-color:green;"></div>
+    <section class="container">
+        <button class="scroll-arrow left" id='left'>left</button>
+        <section id="appletv">
+            <div id="gallery-1" class="appletv-card main" style="background-color:green;"></div>
+            <div id="gallery-2" class="appletv-card blur" style="background-color:blue;"></div>
+            <div id="gallery-3" class="appletv-card " style="background-color:green;"></div>
+            <div id="gallery-4" class="appletv-card" style="background-color:blue;"></div>
+            <div id="gallery-5" class="appletv-card" style="background-color:green;"></div>
+            <div id="gallery-6" class="appletv-card" style="background-color:blue;"></div>
+            <div id="gallery-7" class="appletv-card" style="background-color:green;"></div>
+            <div id="gallery-8" class="appletv-card" style="background-color:blue;"></div>
+            <div id="gallery-9" class="appletv-card blur" style="background-color:green;"></div>
+        </section>
+        <button class="scroll-arrow right" id="right">right</button>
     </section>
 </body>
 </html>
