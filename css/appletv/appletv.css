@@ -13,6 +13,33 @@
 #gallery-1{
     background-image: url('../../img/cbmobile.jpg');
 }
+#gallery-2 {
+    background-image: url('../../img/beforebanner.jpg');
+}
+#gallery-3 {
+    background-image: url('../../img/walvesbanner.jpg');
+}
+#gallery-4 {
+    background-image: url('../../img/badmonkey.jpg');
+}
+#gallery-5 {
+    background-image: url('../../img/slowhorse.jpg');
+}
+#gallery-6 {
+    background-image: url('../../img/ted.jpg');
+}
+#gallery-7 {
+    background-image: url('../../img/morning.jpg');
+}
+#gallery-8 {
+    background-image: url('../../img/shirnk.jpg');
+}
+#gallery-9 {
+    background-image: url('../../img/disclaimer.jpg');
+}
+#gallery-10 {
+    background-image: url('../../img/mls.jpg');
+}
 .appletv-card{
     min-width: 65vw;
     text-align: center;
@@ -37,13 +64,21 @@
     height: 2rem;
     width: 5rem;
 }
-.cb-text-logo{
+.cb-text-logo, .mls{
     margin-top: .5rem;
-    width: 90%;
+    width: 70%;
     /* Image takes full width of the container */
-    height: 90%;
+    height: 70%;
     /* Image takes full height of the container */
     object-fit: cover;
+}
+.mls{
+    margin-top: .5rem;
+        width: 90%;
+        /* Image takes full width of the container */
+        height: 90%;
+        /* Image takes full height of the container */
+        object-fit: cover;
 }
 .logo-container{
     display: flex;
@@ -57,4 +92,10 @@
     font-size: 1rem;
     width: 90%;
 
+}
+.other-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
